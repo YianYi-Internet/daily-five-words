@@ -1,6 +1,6 @@
 # 每日五词
 
-一个面向 Android 的个人英语单词 PWA。每天随机学习 5 个新词，下一次打开先复习最近一组，也可以从已经学会的词中随机复习。
+一个面向 Android 的个人英语单词 PWA。每天 5 个单词，一年就是 1800。每天随机学习 5 个新词，下一次打开先复习最近一组，也可以从已经学会的词中随机复习。
 
 ## 已实现功能
 
@@ -132,3 +132,4 @@ daily-five-words/
 ## 数据来源
 
 词库整理自 GitHub 项目 `CD155/collins-vocabulary`，该项目使用 MIT 许可；原始数据来源于 `skywind3000/ECDICT`，同样使用 MIT 许可。许可原文位于 `licenses/collins-vocabulary-LICENSE.txt`。
+
