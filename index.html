@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#16324f" />
+  <meta name="description" content="每天随机学习 5 个英语单词，并复习上一次和已经学过的词。" />
+  <title>每日五词</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="app" class="app-shell" aria-live="polite">
+    <section class="loading-screen">
+      <div class="loading-mark">5</div>
+      <p>正在准备今天的五个词…</p>
+    </section>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript>需要启用 JavaScript 才能使用每日五词。</noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
